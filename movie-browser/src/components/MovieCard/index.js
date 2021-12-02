@@ -5,21 +5,21 @@ export default function MovieCard({ movie, onClick }) {
 
   return (
     <div className="col">
-      <div class="card border-light" style={{ width: "18rem" }}>
+      <div className="card border-light" style={{ width: "18rem" }}>
         <div style={{ height: "25rem" }}>
           <img
             src={`https://image.tmdb.org/t/p/w500${poster_path}`}
-            class="card-img-top"
+            className="card-img-top"
             alt="..."
             style={{ height: "25rem", objectFit: "cover" }}
           />
         </div>
-        <div class="card-body">
-          <h5 class="card-title">{title}</h5>
-          <p class="card-text">
-            <small class="text-muted">Release date: {release_date}</small>
+        <div className="card-body">
+          <h5 className="card-title">{title}</h5>
+          <p className="card-text">
+            <small className="text-muted">Release date: {release_date}</small>
           </p>
-          <Link to={`/movies/${id}`} class="btn btn-primary">
+          <Link to={`/movies/${id}`} className="btn btn-primary">
             More details
           </Link>
         </div>

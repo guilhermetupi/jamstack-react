@@ -17,7 +17,7 @@ function App() {
     if (searchText) {
       setSearchLoading(true);
       fetch(
-        `https://api.themoviedb.org/3/search/movie?api_key=dd33a661f205b8261aad63b04c33ef42&language=en-US&query=${searchText}&page=1&include_adult=false`
+        `https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_TMDB_API_KEY}&language=en-US&query=${searchText}&page=1&include_adult=false`
       )
         .then((res) => res.json())
         .then(({ results }) => {
