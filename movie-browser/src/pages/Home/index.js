@@ -7,23 +7,12 @@ export default function Home() {
       <div className="container">
         <div className="row">
           <div className="col-lg-8 offset-lg-2 my-5">
+            <h1 className="text-title">Movie Browser</h1>
             <p className="lead">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-              vitae imperdiet nisl. Duis at neque augue. In dignissim in tellus
-              ut scelerisque. Nam tristique egestas commodo. Quisque finibus
-              orci est, nec aliquet est pulvinar et. Fusce non dui ac nunc
-              congue facilisis. Quisque et quam ac nulla tristique tincidunt ac
-              et neque. In accumsan tempus pellentesque. Aliquam erat volutpat.
-              <br />
-              Nulla facilisi. Pellentesque ultricies rutrum lacus. Donec sodales
-              lacus id turpis dictum, ut consequat urna placerat. Pellentesque
-              vehicula blandit leo in ornare. Sed cursus, quam vel varius
-              convallis, urna nisi scelerisque arcu, ac malesuada leo mi a
-              augue. Suspendisse faucibus lectus ipsum, et fringilla lectus
-              convallis non. In congue libero id quam auctor tincidunt. Nunc sed
-              justo quis justo sodales volutpat. Aliquam aliquam tempor ipsum,
-              quis ultrices enim varius at. Mauris sit amet ligula vestibulum
-              nisl venenatis sagittis.
+              Welcome to Movie Browser. This is a simple app that allows you to
+              search for movies and view their details. That's a project that
+              I've been working for the JamStack e-degree on Coursera.
+              <br /> <br />
             </p>
           </div>
         </div>

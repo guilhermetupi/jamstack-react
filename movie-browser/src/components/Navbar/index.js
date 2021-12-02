@@ -35,12 +35,7 @@ export default function Navbar({ setSearchText }) {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/about">
-                About
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link disabled" to="gotosomewhere">
-                Coming soon
+                About me
               </Link>
             </li>
           </ul>

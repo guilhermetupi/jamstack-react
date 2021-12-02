@@ -1,8 +1,17 @@
+import { useEffect } from "react";
+import { useHistory } from "react-router-dom";
 import Hero from "../../components/Hero";
 import MovieCard from "../../components/MovieCard";
 import Spinner from "../../components/Spinner";
 
 export default function Search({ keyword, searchResults, isLoading }) {
+  const history = useHistory();
+  useEffect(() => {
+    if (searchResults.length === 0) {
+      history.push("/");
+    }
+  }, [searchResults]);
+
   return (
     <>
       <Hero title={`You are searching for ${keyword}`} />
